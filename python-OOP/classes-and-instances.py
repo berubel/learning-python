@@ -9,10 +9,6 @@
  # obs: if u want to leavy a class or a function empty for the time being then u can put 'pass' statement
  # obs: all method automatically takes the instance as the first argument 'self'
 
-from cgi import print_arguments
-from distutils.command.build_scripts import first_line_re
-
-
 class Employee():
 
     def __init__(self, first, last, pay):
