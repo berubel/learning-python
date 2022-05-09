@@ -39,7 +39,7 @@ print("\n")
 print(Employee.__dict__)
 print("\n")
 
-# We can acess and change the value of the class variables and it'll change the raise_amount fot he class and all of the instances
+# We can acess and change the value of the class variables and it'll change the raise_amount for the class and all of the instances
 Employee.raise_amount =  1.05
 print(emp_1.raise_amount)
 print(emp_2.raise_amount)
