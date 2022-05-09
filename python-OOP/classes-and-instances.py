@@ -6,7 +6,7 @@
 # variables -> attributes
 # functions -> methods
 
- # obs: if u want to leavy a class or a function empty for the time being then u can put 'pass' statement
+ # obs: if u want to leave a class or a function empty for the time being then u can put 'pass' statement
  # obs: all method automatically takes the instance as the first argument 'self'
 
 class Employee():
