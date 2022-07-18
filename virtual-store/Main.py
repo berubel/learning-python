@@ -18,3 +18,7 @@ print('Holder: {} \nAccount number: {} \nBalance: {}'.format(account.holder, acc
 account.balance = 50
 # New balance
 print('New balance: {}'. format(account.balance))
+
+account.deposit(500)
+account.withdrawal(50)
+account.account_statement()
