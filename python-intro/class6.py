@@ -16,8 +16,9 @@ class Calculator:
         return self.a / self.b
 
 
-calculator = Calculator(10, 2)
-print('Sum: {}'.format(calculator.sum()))
-print('Subtraction: {}'.format(calculator.sub()))
-print('Multiplication: {}'.format(calculator.mult()))
-print('Division: {}'.format(calculator.div()))
+if __name__ == '__main__':
+    calculator = Calculator(10, 2)
+    print('Sum: {}'.format(calculator.sum()))
+    print('Subtraction: {}'.format(calculator.sub()))
+    print('Multiplication: {}'.format(calculator.mult()))
+    print('Division: {}'.format(calculator.div()))
